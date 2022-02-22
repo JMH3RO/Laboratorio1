@@ -15,7 +15,7 @@ class Server {
 
     routes() {
         this.app.use('/precios', require('../routes/precios'))
-        this.app.use('/detallesenvios', require('../routes/detallesEnvios'))
+        this.app.use('/detallesenvios', require('../routes/detallesEnvio'))
         this.app.use('/envios', require('../routes/envios'))
         this.app.use('/paquetes', require('../routes/paquetes'))
         this.app.use('/seguimientos', require('../routes/seguimiento'))
